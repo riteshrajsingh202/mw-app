@@ -1,6 +1,244 @@
-.App {
-  text-align: center;
+.main{
+  width: 100vw;
+  height: 100vh;
+  /* background-color: #282c34; */
 }
+hr.divider
+{ 
+   margin-top: 0em;
+   margin-bottom: 0em;
+   /* border-width: 2px; */
+} 
+body{
+  /* overflow: hidden; */
+}
+.pbutton{
+  height: 5vh;
+  width: 90vw;
+  float: right;
+}
+.home{
+  height: 5vh;
+  width: 2vw;
+}
+.sbutton{
+  height: 5vh;
+  width: 100vw;
+  display: none;
+  float: right;
+}
+.secondscreen{
+  height: 100vh;
+  width: 100vw
+}
+.partition{
+  height: 100vh;
+  width: 100vw;
+}
+.partition1{
+  height: 100vh;
+  width: 100vw;
+  display: none
+}
+.header{
+  text-align: center;
+  height: 10vh;
+  width: 100vw;
+  font-size: 40px;
+  background-color: #ffffff;
+  align-items: center;
+  display: flex;
+  /* overflow: hidden; */
+}
+/* .sidespace{
+  height:5vh;
+  width: 10vw;
+  background-color: #d7e4f0;
+} */
+.navigation{
+  text-align: center;
+  height: 5vh;
+  width: 100vw;
+  font-size: 30px;
+  background-color: #d7e4f0;
+}
+.sidestyle{
+  text-align: center;
+  height: 25vh;
+  width: 10vw;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.sidepannel{
+  text-align: center;
+  height: 100vh;
+  width: 10vw;
+  font-size: 30px;
+  background-color: #e6f0f9;
+}
+
+.App_2 {
+  text-align: center;
+  height: 25vh;
+  width: 90vw;
+  font-size: 30px;
+  background-color: #bbd2f8;
+  position:absolute;
+  right:0;
+  top:15vh;
+}
+.App_3 {
+  text-align: center;
+  height: 25vh;
+  width: 90vw;
+  font-size: 30px;
+  background-color: #bbd2f8;
+  position:absolute;
+  right:0;
+  top:40vh
+} 
+.App_4 {
+  text-align: center;
+  height: 25vh;
+  width: 90vw;
+  font-size: 30px;
+  background-color: #bbd2f8;
+  right:0;
+  position:absolute;
+  right:0;
+  top:65vh
+} 
+.dtext{
+  width: 75vw;
+  height: 8vh;
+  text-align: center;
+  white-space: pre-wrap;
+}
+.button1{
+  width: 22.5vw;
+  height: 5vh;
+  background-color: #eef4f9;
+  color: #5f1ebe;
+  text-align: center;
+  font-size: 3vh;
+  display: inline-block;
+  padding: 0px 0px;
+  border: 0px;
+  float: left;
+  cursor: pointer;
+  
+}
+.dashboard{
+  font:bold;
+  font-size: 3vw;
+  white-space: pre;
+}
+.xerox{
+  height: 8vh;
+  width: 20vw;
+  margin: 1vw 0vw 1vw 2vw;
+}
+.hcl{
+  height: 10vh;
+  width: 16vw;
+  margin: 0vw 2vw 0vw 2vw;
+}
+.flex{
+  height: 8vh;
+  width: 74vw;
+  background-color: #ffffff;
+  display: flex;
+  margin: 0vw 2vw 0vw 2vw;
+  word-wrap: break-word;
+}
+.homebutton{
+  width: 6vw;
+  height: 6vh;
+  background-color: #ffffff;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  display: inline-block;
+  padding: 0px 0px;
+  border: 0px;
+  margin: 1vw 6vw 0vw 1vw;
+  float: right;
+  cursor: pointer;
+  border-radius: 50%;
+  /* display: flex; */
+}
+.button2:active{
+  background-color: orange;
+    /* box-shadow: 0 5px gray; */
+    transform: translateY(2px);
+}
+.homebutton:hover {
+  background-color: #d7d3dc;
+}
+.button1:hover {
+  background-color: rgb(180, 184, 195);
+}
+.button2:hover {
+  background-color: rgb(180, 184, 195);
+}
+.button2:active {
+  color: #c31616;
+  background-color: transparent;
+  border-color: transparent transparent #f3f3f3;
+  border-bottom: 4px solid;
+  font-weight: bold;
+}
+/* .addColor:active{
+  background-color: black;
+}
+.addColor:active{
+  background-color: black;
+} */
+/* .button1:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: 0.4s
+}
+
+.button1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+} */
+.button2{
+  width: 25vw;
+  height: 5vh;
+  background-color: #eef4f9;
+  color: #5f1ebe;
+  text-align: center;
+  font-size: 3vh;
+  display: inline-block;
+  padding: 0px 0px;
+  border: 0px;
+  float: left;
+  cursor: pointer;
+}
+.App_5 {
+  text-align: center;
+  height: 25vh;
+  width: 90vw;
+  font-size: 30px;
+  background-color: #bbd2f8;
+  right:0;
+  position:absolute;
+  right:0;
+  top:90vh
+} 
 
 .App-logo {
   height: 40vmin;
